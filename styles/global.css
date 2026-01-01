@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Open+sans&display=swap");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+:root {
+  font-size: 10px;
+
+  /* Fondos principales */
+  --background-color: #f5ede3; /* Beige cálido de las paredes */
+  --background-secondary: #ffffff; /* Blanco */
+
+  /* Títulos */
+  --title-h1-color: #4a3829; /* Marrón oscuro de las sombras */
+  --title-h2-color: #6b5444; /* Marrón medio */
+  --title-h3-color: #8b6f47; /* Marrón dorado */
+
+  /* Texto general */
+  --color-texto: #5a4a3a; /* Marrón grisáceo para lectura */
+  --hero-texto: #2c1810; /* Marrón muy oscuro */
+
+  /* Navbar */
+  --navbar-background: #e8ddd09f; /* Beige suave de la pared */
+  --navbar-hover: #8b6f47; /* Dorado cálido */
+  --navbar-texto: #4a3829; /* Marrón oscuro */
+  --navbar-active-background: #4a3829; /* Marrón oscuro */
+  --navbar-background-blur: #4a382973;
+  --navbar-active-texto: #f5ede3; /* Beige claro */
+  --navbar-active-hover: #a1855e; /* Dorado suave */
+
+  /* Botones */
+  --button-color: #8b6f47; /* Dorado cálido */
+  --button-hover: #6b5444; /* Marrón medio oscuro */
+  --button-text: #ffffff; /* Blanco */
+
+  /* Cards */
+  --card-background: #ffffff; /* Blanco puro */
+  --card-border: #d4c4b0; /* Beige grisáceo */
+  --card-title-overlay: #ffffff; /* Blanco */
+  --card-description: #5a4a3a; /* Marrón grisáceo */
+
+  /* Acentos adicionales */
+  --accent-green: #7a8b5e; /* Verde de las plantas */
+  --accent-warm: #d4a574; /* Dorado cálido de la luz */
+  --shadow-color: rgba(74, 56, 41, 0.15); /* Sombras suaves */
+}
+
+body {
+    background-color: var(--background-color);
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+}
