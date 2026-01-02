@@ -12,6 +12,7 @@
   text-align: center;
   position: relative;
   z-index: -2;
+  font-family: inherit;
 }
 
 /* .hero img {
@@ -20,6 +21,8 @@
   background-size: contain;
   background-position: right center;
 } */
+
+
 
  .hero::before {
   content: '';
@@ -33,6 +36,7 @@
  }
 
 .hero__title {
+    font-family: 'Montserrat', sans-serif;
     color: #ffffff;
     font-size: 5rem;
     text-transform: uppercase;
