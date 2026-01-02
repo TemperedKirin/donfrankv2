@@ -1,4 +1,6 @@
 const nav = document.querySelector('.nav');
+const sidebar = document.querySelector('.sidebar');
+
 window.addEventListener('scroll', fixNav);
 
 function fixNav() {
@@ -8,4 +10,13 @@ function fixNav() {
         nav.classList.remove('active');
     
     }
+}
+
+function showSidebar() {
+    sidebar.style.display = 'flex';
+}
+
+function hideSidebar() {
+    sidebar.style.display = 'none';
+
 }

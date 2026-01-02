@@ -1,52 +1,67 @@
 .container {
-    max-width: 1920px;
-    margin-inline: auto;
-    padding-inline: 0.5rem;
-    
+  max-width: 1920px;
+  margin-inline: auto;
+  padding-inline: 0.5rem;
 }
 
 /* 2xl */
-@media(max-width: 1536px){
-    .container {
-        max-width: 1280px;
-    }
+@media (max-width: 1536px) {
+  .container {
+    max-width: 1280px;
+  }
 }
 
 /* xl */
-@media(max-width: 1280px){
-      .container {
-        max-width: 1024px;
-    }
+@media (max-width: 1280px) {
+  .container {
+    max-width: 1024px;
+  }
 }
-
 
 /* lg */
-@media(max-width: 1024px){
-      .container {
-        max-width: 768px;
-    }
+@media (max-width: 1024px) {
+  .container {
+    max-width: 768px;
+  }
 }
-
 
 /* md */
-@media(max-width: 768px){
+@media (max-width: 768px) {
   .container {
-        max-width: 640px;
-    }
-}
+    max-width: 640px;
+  }
 
+  .hideEl {
+    display: none;
+  }
+
+  .nav li {
+    display: none;
+  }
+
+  .sidebar li {
+    display: flex;
+  }
+
+  .burger-icon {
+    display: block;
+  }
+}
 
 /* sm */
-@media(max-width: 640px){
-      .container {
-        max-width: 475px;
-    }
+@media (max-width: 640px) {
+  .container {
+    max-width: 475px;
+  }
 }
 
-
 /* xs */
-@media(max-width: 480px){
-     .container {
-        width: 100%;
-    }
+@media (max-width: 480px) {
+  .container {
+    width: 100%;
+  }
+
+  .sidebar {
+    width: 100%;
+  }
 }
