@@ -1,0 +1,19 @@
+.nosotros {
+    
+    text-align: center;
+    color: var(--title-h2-color)
+}
+
+.nosotros h2 {
+    font-size: 4rem;
+    margin: 2rem;
+}
+
+.nosotros p {
+    font-size: 2rem;
+    margin-bottom: 4rem;
+    max-width: 60ch;
+    margin-inline: auto;
+    line-height: 2;
+    
+}
